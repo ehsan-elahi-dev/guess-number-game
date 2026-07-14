@@ -1,6 +1,7 @@
+
 ## 📸 Screenshots
 
-./guess-number-responsive/guess-number-game/screenshots/screenshot.png
+![Guess Number Game](./screenshot/screenshot.png)
 
 # 🎯 Guess Number Game
 
