@@ -24,7 +24,7 @@ A responsive number guessing game built with **HTML**, **CSS**, and **JavaScript
 
 ## 🌐 Live Demo
 
-> **Live Demo:** _Add your deployment link here_
+ https://ehsanellahi1385-commits.github.io/guess-number-game/
 
 ## 📂 Project Structure
 
