@@ -1,0 +1,27 @@
+{
+  "name": "guess-number-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "tw": "npx @tailwindcss/cli -i ./main.css -o ./style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsa-vahdati2003/guess-number-game.git"
+  },
+  "author": "parsa vahdati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parsa-vahdati2003/guess-number-game/issues"
+  },
+  "homepage": "https://github.com/parsa-vahdati2003/guess-number-game#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  }
+}

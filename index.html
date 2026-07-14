@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number!</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="font-press-start-2p relative flex h-dvh w-full flex-col bg-neutral-800 text-neutral-50"
+  >
+    <header class="flex items-center justify-between p-10">
+      <button
+        type="reset"
+        id="again"
+        class="vsmall:px-1 vsmall:py-2 vsmall:text-sm small:px-2 small:py-3 medium:px-3 medium:py-4 cursor-pointer bg-neutral-50 px-8 py-5 text-xl text-neutral-800 transition-all duration-200 hover:bg-neutral-300 xl:px-8 xl:py-5"
+      >
+        Again!
+      </button>
+      <p
+        class="vsmall:text-xs small:text-sm medium:text-xl text-2xl caret-amber-50 xl:text-2xl"
+      >
+        (Between 1 and 20)
+      </p>
+    </header>
+
+    <main class="flex flex-1 flex-col items-center">
+      <div class="flex w-full flex-col items-center gap-10">
+        <h1
+          class="vsmall:text-xl small:text-2xl medium:text-3xl text-center text-5xl xl:text-5xl"
+        >
+          Guess My Number!
+        </h1>
+        <div class="flex w-full items-center">
+          <hr class="h-2 flex-1 bg-neutral-50" />
+          <div
+            id="number"
+            class="vsmall:text-4xl vsmall:size-25 small:size-30 w-40 bg-neutral-50 py-8 text-center text-6xl text-neutral-800 xl:w-40"
+          >
+            ?
+          </div>
+          <hr class="h-2 flex-1 bg-neutral-50" />
+        </div>
+      </div>
+
+      <div
+        class="vsmall:grid small:grid flex w-full flex-1 items-center justify-around xl:flex"
+      >
+        <section class="vsmall:w-100 flex w-lg flex-col items-center gap-8">
+          <input
+            type="number"
+            id="guess"
+            class="vsmall:text-center vsmall:w-32 vsmall:text-2xl small:w-40 w-64 border-4 border-neutral-50 p-6 text-center text-5xl xl:w-64"
+            placeholder="??"
+          />
+          <button
+            type="button"
+            id="check"
+            class="cursor-pointer bg-neutral-50 px-8 py-5 text-xl text-neutral-800 transition-all duration-200 hover:bg-neutral-300"
+          >
+            Check!
+          </button>
+        </section>
+
+        <section
+          class="vsmall:w-100 vsmall:text-center vsmall:text-lg small:text-center flex w-lg flex-col gap-8 text-xl"
+        >
+          <p id="message" class="mb-12">Start guessing...</p>
+          <p>Score: <span id="score">20</span></p>
+          <p>High Score: <span id="highScore">0</span></p>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
