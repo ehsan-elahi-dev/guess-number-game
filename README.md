@@ -1,4 +1,3 @@
-
 ## 📸 Screenshots
 
 ![Guess Number Game](./screenshot/screenshot.png)
@@ -9,7 +8,7 @@ A responsive number guessing game built with **HTML**, **CSS**, and **JavaScript
 
 ## 🌐 Live Demo
 
- https://ehsan-elahi-dev.github.io/guess-number-game/
+🔗 [Live Demo](https://ehsan-elahi-dev.github.io/guess-number-game/)
 
 ## 🚀 Features
 
