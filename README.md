@@ -7,6 +7,10 @@
 
 A responsive number guessing game built with **HTML**, **CSS**, and **JavaScript**. The player tries to guess a randomly generated number, and the game provides helpful feedback after each attempt, indicating whether the guess is too high, too low, or correct.
 
+## 🌐 Live Demo
+
+ https://ehsan-elahi-dev.github.io/guess-number-game/
+
 ## 🚀 Features
 
 - 🎲 Random number generation
@@ -21,10 +25,6 @@ A responsive number guessing game built with **HTML**, **CSS**, and **JavaScript
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
-
-## 🌐 Live Demo
-
- https://ehsanellahi1385-commits.github.io/guess-number-game/
 
 ## 📂 Project Structure
 
